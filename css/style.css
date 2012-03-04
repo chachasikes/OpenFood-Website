@@ -1,0 +1,220 @@
+/*
+@font-face {
+    font-family: 'US101Regular';
+    src: url('../fonts/us101-webfont.eot');
+    src: url('../fonts/us101-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/us101-webfont.woff') format('woff'),
+         url('../fonts/us101-webfont.ttf') format('truetype'),
+         url('../fonts/us101-webfont.svg#Chivo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HighwayGothicRegular';
+    src: url('../fonts/hwygoth-webfont.eot');
+    src: url('../fonts/hwygoth-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hwygoth-webfont.woff') format('woff'),
+         url('../fonts/hwygoth-webfont.ttf') format('truetype'),
+         url('../fonts/hwygoth-webfont.svg#HighwayGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+body {
+  color: #eeefe6;
+  font-family: 'Chivo', Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ui-widget-content a,
+a {
+  color: #eeefe6;
+  text-decoration: none;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.ui-widget-content a {
+  font-weight: bold;
+}
+
+ul {
+  margin: 0 0 2em 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin: 0;
+  padding: 0 0 0.2em 0;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 0.5em;
+  color: #eeefe6;
+  margin: 0.2em 0;
+  padding: 0;
+}
+
+dt, h2, h3, h4 {
+  font-family: 'Chivo', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+h3 {
+  font-size: 2em;
+}
+h4 {
+  font-size: 1.5em;
+}
+
+dt {
+  font-size: 1em;
+}
+dt {
+  margin: 1em 0;
+}
+
+dd {
+  margin: 1em;
+}
+
+p, blockquote {
+  width: 75%;
+}
+
+.tagline {
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.attribution {
+  margin-left: 75%;
+  font-style: italic;
+}
+
+.attribution:before {
+  content: '';  
+}
+
+
+#content {
+  float: left;
+}
+
+.container {
+  padding: 2em 5em 3em 5em;
+  background-color: #666;
+  margin: 0.5em;
+  display: block;
+  clear: both;
+  float: none;
+}
+
+.ui-widget-content,
+.ui-widget-header {
+  background-color: #3B823F;
+  background-image: none;
+  border: none;
+}
+
+.ui-widget, p, .attribution, li, blockquote, dd {
+  font-family: 'HighwayGothicRegular', Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+}
+
+.ui-widget-content {
+  color: inherit;
+}
+
+.ui-tabs .ui-tabs-panel {
+  padding: 0;
+}
+
+#tabs.container {
+  padding: 2em 5em 3em 5em;
+}
+
+#tabs ul.buttons {
+  background-color: #9F1C2D;
+}
+
+#tabs ul.buttons {
+  margin: 0;
+  padding: 0;
+}
+
+#tabs ul.buttons li{
+  float: left;
+  margin: 0 1em 0 0;
+  list-style: none;
+}
+
+h2.title {
+  font-size: 2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 0.5em;
+  color: #eeefe6;
+  margin: 1em 0 0.2em 0;
+  padding: 0.5em;
+  width: 35%;
+  float: left;
+}
+
+#tabs .section ul.buttons {
+  padding: 0 1%;
+  margin: 1em 0 0 0;
+  background: none;
+  width: 50%;
+  float: left;
+}
+
+#tabs .section .buttons a {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0.2em;
+  line-height: 0.8em;
+  padding: 0.8em 2.5em;
+  list-style: none;
+  background-color: #9F1C2D;
+/*
+  width: 5em;
+  height: 2em;
+*/
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Chivo', Helvetica, Arial, sans-serif;
+  box-shadow: 0 0 6px #333;
+  color: #eeefe6;
+}
+
+.image {
+  margin: 1em 0 2em 0;
+}
+
+footer {
+  padding: 2em 5em;
+}
+
+ul.left {
+  display: inline;
+  float: left;
+  width: 50%;
+}
+
+.clear {
+  display: block;
+  float: none;
+  width: 100%;
+}
