@@ -1,30 +1,6 @@
-/*
-@font-face {
-    font-family: 'US101Regular';
-    src: url('../fonts/us101-webfont.eot');
-    src: url('../fonts/us101-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/us101-webfont.woff') format('woff'),
-         url('../fonts/us101-webfont.ttf') format('truetype'),
-         url('../fonts/us101-webfont.svg#Chivo') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HighwayGothicRegular';
-    src: url('../fonts/hwygoth-webfont.eot');
-    src: url('../fonts/hwygoth-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/hwygoth-webfont.woff') format('woff'),
-         url('../fonts/hwygoth-webfont.ttf') format('truetype'),
-         url('../fonts/hwygoth-webfont.svg#HighwayGothicRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-*/
-
 body {
-  color: #eeefe6;
-  font-family: 'Chivo', Helvetica, Arial, sans-serif;
+  color: #B7AE35;
+  font-family: 'Grotesque MT Std', Helvetica, Arial, sans-serif;
   font-size: 100%;
   font-weight: normal;
   font-style: normal;
@@ -32,7 +8,7 @@ body {
 
 .ui-widget-content a,
 a {
-  color: #eeefe6;
+  color: #B7AE35;
   text-decoration: none;
   font-weight: normal;
   text-transform: uppercase;
@@ -58,13 +34,26 @@ h1 {
   font-weight: normal;
   text-transform: uppercase;
   line-height: 0.5em;
-  color: #eeefe6;
+  color: #B7AE35;
   margin: 0.2em 0;
   padding: 0;
+  //box-shadow: 0em 0em 0em 1em rgba(207, 244, 91, 0.5);   /* #cff45b*/
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+/*   border: solid rgba(207, 244, 91, 0.5); */
+  background-color: rgba(207, 244, 91, 0.3);
+  padding: 1em;
+  
+  
+  -webkit-box-shadow:0 0 2em rgba(207, 244, 91, 0.5); 
+  -moz-box-shadow: 0 0 2em rgba(207, 244, 91, 0.5); 
+  box-shadow:0 0 2em rgba(207, 244, 91, 0.5); 
+
 }
 
 dt, h2, h3, h4 {
-  font-family: 'Chivo', Helvetica, Arial, sans-serif;
+  font-family: 'Grotesque MT Std', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 1em;
   line-height: 1em;
@@ -109,32 +98,16 @@ p, blockquote {
 
 
 #content {
-  float: left;
+/*   float: left; */
 }
 
 .container {
   padding: 2em 5em 3em 5em;
-  background-color: #666;
+  background-color: #CCE3AC;
   margin: 0.5em;
   display: block;
   clear: both;
   float: none;
-}
-
-.ui-widget-content,
-.ui-widget-header {
-  background-color: #3B823F;
-  background-image: none;
-  border: none;
-}
-
-.ui-widget, p, .attribution, li, blockquote, dd {
-  font-family: 'HighwayGothicRegular', Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-}
-
-.ui-widget-content {
-  color: inherit;
 }
 
 .ui-tabs .ui-tabs-panel {
@@ -165,11 +138,11 @@ h2.title {
   font-weight: normal;
   text-transform: uppercase;
   line-height: 0.5em;
-  color: #eeefe6;
+  color: #B7AE35;
   margin: 1em 0 0.2em 0;
-  padding: 0.5em;
+  padding: 0.5em 0;
   width: 35%;
-  float: left;
+/*   float: left; */
 }
 
 #tabs .section ul.buttons {
@@ -196,7 +169,7 @@ h2.title {
   font-size: 1em;
   font-family: 'Chivo', Helvetica, Arial, sans-serif;
   box-shadow: 0 0 6px #333;
-  color: #eeefe6;
+  color: #B7AE35;
 }
 
 .image {
@@ -208,9 +181,11 @@ footer {
 }
 
 ul.left {
+/*
   display: inline;
   float: left;
   width: 50%;
+*/
 }
 
 .clear {
