@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Grotesque MT Std';
+    src: url('../fonts/grotesquemtstd-webfont.eot');
+    src: url('../fonts/grotesquemtstd-webfont?#iefix') format('embedded-opentype'),
+         url('../fonts/grotesquemtstd-webfont.woff') format('woff'),
+         url('../fonts/grotesquemtstd-webfont.ttf') format('truetype'),
+         url('../fonts/grotesquemtstd-webfont.svg#US101Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   color: #2D2915;
   font-family: 'Grotesque MT Std', Helvetica, Arial, sans-serif;
