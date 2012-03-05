@@ -53,66 +53,64 @@ ul li {
 }
 
 h1 {
-/*
-  font-size: 3em;
-
-  text-transform: uppercase;
-  line-height: 0.5em;
-  color: #99946A;
-  margin: 0.2em 0 0.5em 0;
-*/
-
   text-transform: uppercase;
   font-size: 3em;
    font-weight: normal; 
   line-height: 1em;
   width: 50%;
-/*   position: relative; */
-/*   float: right; */
   color: #2D2915;
   padding: 0 0em;
   margin: 1em 25% 0 0;
+}
 
-/*   box-shadow: 0em 0em 0em 1em rgba(207, 244, 91, 0.5); */   /* #cff45b*/
-/*
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  border-radius: 1em;
-  background-color: rgba(256, 256, 256, 0.3);
-*/
-/*   padding: 2em; */
-/*
-  -webkit-box-shadow:0 0 2em rgba(256, 256, 256, 0.5);
-  -moz-box-shadow: 0 0 2em rgba(256, 256, 256, 0.5);
-  box-shadow:0 0 2em rgba(256, 256, 256, 0.5); 
-*/
-/*   display: inline-block; */
-
+h2.title {
+  font-size: 2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 0.5em;
+  color: #A8A165;
+  margin: 1em 0 0.2em 0;
+  padding: 0.5em 0;
+  width: 35%;
 }
 
 dt, h2, h3, h4 {
   font-family: 'Grotesque MT Std', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-weight: normal;
   font-size: 1em;
   line-height: 1em;
+  margin: 2em 0 0.5em 0;
 }
 
 h3 {
   font-size: 1em;
+  color: #564E2E;
 }
 h4 {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 dt {
   font-size: 1em;
 }
+
 dt {
-  margin: 1em 0;
+  margin: 3em 0 0.5em 0;
+}
+
+dt a {
+  color: #564E2E;
 }
 
 dd {
   margin: 1em;
+}
+
+dl li {
+  list-style: disc;
+  list-style-position: inside;
+  color: #564E2E;
 }
 
 p, blockquote {
@@ -123,7 +121,7 @@ p, blockquote {
   text-transform: uppercase;
   font-size: 1.5em;
   line-height: 1em;
-  width: 25%;
+  width: 50%;
   color: #2D2915;
   padding: 0 0em;
   margin: 1em 25% 0 0;
@@ -182,17 +180,6 @@ p, blockquote {
 
 #tabs ul.buttons li:hover a {
   color: #fff;
-}
-
-h2.title {
-  font-size: 2em;
-  font-weight: normal;
-  text-transform: uppercase;
-  line-height: 0.5em;
-  color: #A8A165;
-  margin: 1em 0 0.2em 0;
-  padding: 0.5em 0;
-  width: 35%;
 }
 
 .image {
